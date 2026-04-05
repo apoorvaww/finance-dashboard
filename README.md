@@ -107,12 +107,10 @@ npm start
 
 Once running, open **http://localhost:3000/api/docs** in your browser.
 
-The Swagger UI is fully interactive — you can log in and test every endpoint directly from the browser.
-
-### Quick Start in Swagger
+### How to Start in Swagger
 1. Use `POST /api/auth/login` with one of the seeded credentials below
 2. Copy the `token` from the response
-3. Click **Authorize** (top right) → paste `Bearer <your_token>`
+3. Click **Authorize** (top right) and then paste `Bearer <your_token>`
 4. All subsequent requests will be authenticated
 
 ---
