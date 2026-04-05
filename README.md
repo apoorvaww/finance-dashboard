@@ -6,8 +6,8 @@ A role-based finance management REST API built with **Node.js**, **Express**, an
 
 ## Tech Stack
 
-| Layer | Choice | Why |
-|---|---|---|
+| Layer | Choice |
+|---|---|
 | Runtime | Node.js 18+ |
 | Framework | Express.js | 
 | Database | PostgreSQL | 
