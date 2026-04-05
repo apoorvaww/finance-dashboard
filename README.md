@@ -1,6 +1,6 @@
 # Finance Dashboard Backend
 
-A production-ready, role-based finance management REST API built with **Node.js**, **Express**, and **PostgreSQL**.
+A role-based finance management REST API built with **Node.js**, **Express**, and **PostgreSQL**.
 
 ---
 
@@ -8,13 +8,13 @@ A production-ready, role-based finance management REST API built with **Node.js*
 
 | Layer | Choice | Why |
 |---|---|---|
-| Runtime | Node.js 18+ | Async I/O, great ecosystem |
-| Framework | Express.js | Minimal, flexible, widely adopted |
-| Database | PostgreSQL | Relational model ideal for financial data; rich aggregation |
-| Auth | JWT (jsonwebtoken) | Stateless, scalable, easy to test |
-| Validation | express-validator | Declarative, composable rule chains |
-| API Docs | Swagger / OpenAPI 3.0 | Interactive docs, testable in browser |
-| Security | bcryptjs + rate-limit | Hashed passwords, brute-force protection |
+| Runtime | Node.js 18+ |
+| Framework | Express.js | 
+| Database | PostgreSQL | 
+| Auth | JWT (jsonwebtoken) | 
+| Validation | express-validator |
+| API Docs | Swagger / OpenAPI 3.0 |
+| Security | bcryptjs + rate-limit |
 
 ---
 
@@ -59,10 +59,6 @@ finance-dashboard/
 ---
 
 ## Setup & Installation
-
-### Prerequisites
-- Node.js 18+
-- PostgreSQL 14+
 
 ### 1. Clone and install dependencies
 ```bash
